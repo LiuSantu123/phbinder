@@ -1,0 +1,8 @@
+name: phbinder
+channels: [conda-forge]
+dependencies:
+  - python>=3.10
+  - numpy>=1.24
+  - pandas>=2.0
+  - pyyaml>=6.0
+  - biotite>=1.0

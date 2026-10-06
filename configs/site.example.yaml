@@ -1,0 +1,22 @@
+# Copy to configs/site.yaml and edit paths for your machine.
+# Absolute paths are preferred. Environment variables are also supported.
+ph_on: 6.5
+ph_off: 7.4
+interface_cutoff_angstrom: 8.0
+workers: 8
+mode: standard
+chains:
+  target: A
+  binder: B
+tools:
+  propka: /opt/propka/bin/propka3
+  pdb2pqr: /opt/pdb2pqr/bin/pdb2pqr
+  apbs: /opt/apbs/bin/apbs
+  rosetta_interface_analyzer: /opt/rosetta/bin/InterfaceAnalyzer.linuxgccrelease
+  mmpbsa: /opt/amber/bin/MMPBSA.py
+weights:
+  structure_confidence: 0.30
+  electrostatic_delta: 0.25
+  interface_titratable: 0.20
+  interface_energy: 0.15
+  dynamics: 0.10

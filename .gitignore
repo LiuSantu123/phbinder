@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+results/
+phscreen_results/
+configs/site.yaml
+*.log
+*.pdb
+*.pqr
+*.dx
+src/*.egg-info/
+.pytest_cache/

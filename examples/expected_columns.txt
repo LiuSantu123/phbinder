@@ -1,0 +1,14 @@
+candidate_id
+structure
+input_sha256
+status
+pH_on
+pH_off
+interface_atom_contacts
+interface_target_residues
+interface_binder_residues
+interface_titratable_target
+interface_titratable_binder
+delta_electrostatic_energy
+interface_switchable
+combined_score
